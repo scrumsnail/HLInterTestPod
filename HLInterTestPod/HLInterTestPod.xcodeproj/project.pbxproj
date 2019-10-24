@@ -59,7 +59,6 @@
 		3BE088C423619ABB00CBE27A /* HLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHomeViewController.m; sourceTree = "<group>"; };
 		3BE088C523619ABB00CBE27A /* HLHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HLHomeViewController.xib; sourceTree = "<group>"; };
 		3BE088CF2361A3C100CBE27A /* WechatIMG6559.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG6559.jpeg; sourceTree = "<group>"; };
-		3BE088D12361A3DA00CBE27A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		620F6598A19F0AAA6458221B /* Pods-HLInterTestPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLInterTestPod.debug.xcconfig"; path = "Target Support Files/Pods-HLInterTestPod/Pods-HLInterTestPod.debug.xcconfig"; sourceTree = "<group>"; };
 		C4BC7B27F679FE7D299F14CF /* Pods-HLInterTestPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLInterTestPod.release.xcconfig"; path = "Target Support Files/Pods-HLInterTestPod/Pods-HLInterTestPod.release.xcconfig"; sourceTree = "<group>"; };
 		EE04D24ECB9B047FF2A6868A /* libPods-HLInterTestPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLInterTestPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,7 +161,6 @@
 				3BE088C123617B9A00CBE27A /* HLViewController.m */,
 				3BE088C323619ABB00CBE27A /* HLHomeViewController.h */,
 				3BE088C423619ABB00CBE27A /* HLHomeViewController.m */,
-				3BE088D12361A3DA00CBE27A /* PrefixHeader.pch */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -517,7 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = HLInterTestPod/Classes/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = HLInterTestPod/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -536,7 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = HLInterTestPod/Classes/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = HLInterTestPod/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
