@@ -9,6 +9,7 @@
 #import "HLHomeViewController.h"
 #import "HLViewController.h"
 @interface HLHomeViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *ds;
 
 @end
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    self.ds.text = self.cc;
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

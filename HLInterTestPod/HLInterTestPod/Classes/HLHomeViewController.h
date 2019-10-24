@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HLHomeViewController : UIViewController
-
+@property (nonatomic,copy) NSString *cc;
 @end
 
 NS_ASSUME_NONNULL_END
