@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HLInterTestPod"
-  spec.version      = "1.0.5"
+  spec.version      = "1.0.6"
   spec.summary      = "这是护理的私有库"
   spec.description  = <<-DESC
 			"this is hull pod"
@@ -10,7 +10,10 @@ Pod::Spec.new do |spec|
   spec.author             = { "鲁友堆" => "3269190984@qq.com" }
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/scrumsnail/HLInterTestPod.git", :tag => "#{spec.version}" }
-  spec.source_files  = "HLInterTestPod/HLInterTestPod/*.{h,m}"
+  spec.source_files  = "HLInterTestPod/HLInterTestPod/Classes/**/*"
+  spec.resource_bundles = {
+		 	'HLInterTestPod' => ["HLInterTestPod/HLInterTestPod/Assets/*"]
+                             }
   spec.exclude_files = "HLInterTestPod/HLInterTestPod/AppDelegate.{h,m}", "HLInterTestPod/HLInterTestPod/main.m"
   spec.dependency "MBProgressHUD"
 
