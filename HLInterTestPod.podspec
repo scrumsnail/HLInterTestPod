@@ -11,6 +11,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/scrumsnail/HLInterTestPod.git", :tag => "#{spec.version}" }
   spec.source_files  = "HLInterTestPod/HLInterTestPod/*.{h,m}"
+  s.exclude_files = "HLInterTestPod/HLInterTestPod/AppDelegate.{h,m}", "HLInterTestPod/HLInterTestPod/main.m"
   spec.dependency "MBProgressHUD"
 
 
