@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view.
     
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-    NSLog(@"jdajksjda");
+    NSLog(@"dasdasdadasdajdajksjda");
 }
 
 /*
