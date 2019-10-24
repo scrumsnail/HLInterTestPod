@@ -1,13 +1,13 @@
 Pod::Spec.new do |spec|
   spec.name         = "HLInterTestPod"
-  spec.version      = "1.0.9"
+  spec.version      = "1.0.10"
   spec.summary      = "这是护理的私有库"
   spec.description  = <<-DESC
 			"this is hull pod"
                    DESC
   spec.homepage     = "https://github.com/scrumsnail/HLInterTestPod"
   spec.license      = "MIT"
-  spec.author             = { "鲁友堆" => "3269190984@qq.com" }
+  spec.author             = { "luyoudui" => "3269190984@qq.com" }
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/scrumsnail/HLInterTestPod.git", :tag => "#{spec.version}" }
   spec.source_files  = "HLInterTestPod/HLInterTestPod/Classes/**/*"
