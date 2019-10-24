@@ -7,7 +7,7 @@
 //
 
 #import "HLHomeViewController.h"
-
+#import "HLViewController.h"
 @interface HLHomeViewController ()
 
 @end
@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    HLViewController *vc = [[HLViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 /*
