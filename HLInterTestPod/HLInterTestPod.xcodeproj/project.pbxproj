@@ -15,6 +15,8 @@
 		3BE088A823617B3600CBE27A /* HLInterTestPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE088A723617B3600CBE27A /* HLInterTestPodTests.m */; };
 		3BE088B323617B3600CBE27A /* HLInterTestPodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE088B223617B3600CBE27A /* HLInterTestPodUITests.m */; };
 		3BE088C223617B9A00CBE27A /* HLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE088C123617B9A00CBE27A /* HLViewController.m */; };
+		3BE088C623619ABB00CBE27A /* HLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE088C423619ABB00CBE27A /* HLHomeViewController.m */; };
+		3BE088C723619ABB00CBE27A /* HLHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE088C523619ABB00CBE27A /* HLHomeViewController.xib */; };
 		D138A6C3A7CCD85C8CEA5487 /* libPods-HLInterTestPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE04D24ECB9B047FF2A6868A /* libPods-HLInterTestPod.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,9 @@
 		3BE088B423617B3600CBE27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BE088C023617B9A00CBE27A /* HLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLViewController.h; sourceTree = "<group>"; };
 		3BE088C123617B9A00CBE27A /* HLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLViewController.m; sourceTree = "<group>"; };
+		3BE088C323619ABB00CBE27A /* HLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHomeViewController.h; sourceTree = "<group>"; };
+		3BE088C423619ABB00CBE27A /* HLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHomeViewController.m; sourceTree = "<group>"; };
+		3BE088C523619ABB00CBE27A /* HLHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HLHomeViewController.xib; sourceTree = "<group>"; };
 		620F6598A19F0AAA6458221B /* Pods-HLInterTestPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLInterTestPod.debug.xcconfig"; path = "Target Support Files/Pods-HLInterTestPod/Pods-HLInterTestPod.debug.xcconfig"; sourceTree = "<group>"; };
 		C4BC7B27F679FE7D299F14CF /* Pods-HLInterTestPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLInterTestPod.release.xcconfig"; path = "Target Support Files/Pods-HLInterTestPod/Pods-HLInterTestPod.release.xcconfig"; sourceTree = "<group>"; };
 		EE04D24ECB9B047FF2A6868A /* libPods-HLInterTestPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLInterTestPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +125,9 @@
 				3BE0888C23617B3500CBE27A /* AppDelegate.m */,
 				3BE088C023617B9A00CBE27A /* HLViewController.h */,
 				3BE088C123617B9A00CBE27A /* HLViewController.m */,
+				3BE088C323619ABB00CBE27A /* HLHomeViewController.h */,
+				3BE088C423619ABB00CBE27A /* HLHomeViewController.m */,
+				3BE088C523619ABB00CBE27A /* HLHomeViewController.xib */,
 				3BE0889423617B3500CBE27A /* Main.storyboard */,
 				3BE0889723617B3600CBE27A /* Assets.xcassets */,
 				3BE0889923617B3600CBE27A /* LaunchScreen.storyboard */,
@@ -261,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BE0889B23617B3600CBE27A /* LaunchScreen.storyboard in Resources */,
+				3BE088C723619ABB00CBE27A /* HLHomeViewController.xib in Resources */,
 				3BE0889823617B3600CBE27A /* Assets.xcassets in Resources */,
 				3BE0889623617B3500CBE27A /* Main.storyboard in Resources */,
 			);
@@ -313,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BE088C223617B9A00CBE27A /* HLViewController.m in Sources */,
+				3BE088C623619ABB00CBE27A /* HLHomeViewController.m in Sources */,
 				3BE0888D23617B3500CBE27A /* AppDelegate.m in Sources */,
 				3BE0889E23617B3600CBE27A /* main.m in Sources */,
 			);

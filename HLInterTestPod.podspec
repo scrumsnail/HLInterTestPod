@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HLInterTestPod"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   spec.summary      = "这是护理的私有库"
   spec.description  = <<-DESC
 			"this is hull pod"
